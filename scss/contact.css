@@ -1,0 +1,107 @@
+.contact {
+  background-image: url(../img/Page-2/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 80px;
+  height: 100vh;
+}
+@media (max-height: 992px) {
+  .contact-container {
+    gap: 20px;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  background-color: #B5986D;
+  width: 60%;
+  padding: 28px 0;
+}
+@media (max-width: 768px) {
+  .contact-box {
+    width: 100%;
+  }
+}
+.contact-box .box {
+  background-color: #B5986D;
+  border: 1px solid #f1b150;
+  margin: 0 33px;
+}
+.contact-box .box .text-title {
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .contact-box .box .text-title {
+    font-size: 50px;
+  }
+}
+@media (max-height: 992px) {
+  .contact-box .box .text-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media (max-height: 992px) {
+  .contact-info {
+    margin-bottom: 10px;
+  }
+}
+.contact-info .contact-input {
+  width: 80%;
+  color: #B5986D;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  padding: 14px 0 14px 30px;
+  border: 0;
+}
+.contact-info .contact-textarea {
+  width: 80%;
+  color: #B5986D;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  padding: 14px 0 14px 30px;
+  border: 0;
+}
+.contact-info .contact-button {
+  background-color: #021222;
+  border-radius: 10px;
+  width: 80%;
+  color: #B5986D;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  padding: 14px 0;
+  border: 0;
+  transition: 0.3s;
+}
+.contact-info .contact-button .send-it-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  padding: 5px 0;
+  border: 1px solid #B5986D;
+  border-radius: 10px;
+}
+.contact-info .contact-button:hover {
+  background-color: #163758;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@media (max-width: 992px) {
+  .page-title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-menu {
+    font-size: 30px;
+  }
+}
+
+.title-menu-bg {
+  font-size: 100px;
+}
+@media (max-width: 992px) {
+  .title-menu-bg {
+    font-size: 70px;
+    bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  .title-menu-bg {
+    font-size: 37px;
+    bottom: 22px;
+  }
+}
+@media (max-width: 410px) {
+  .title-menu-bg {
+    font-size: 25px;
+    bottom: 27px;
+    left: 10px;
+  }
+}
+
+.wine-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 77px;
+}
+@media (max-width: 992px) {
+  .wine-info {
+    flex-direction: column;
+  }
+}
+
+.wine-photo {
+  width: 55%;
+}
+.wine-photo .wine-img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .wine-photo {
+    width: 80%;
+  }
+}
+
+.wine-box {
+  width: 45%;
+  padding: 50px 35px;
+  border: 1px solid #B5986D;
+}
+@media (max-width: 768px) {
+  .wine-box {
+    width: 80%;
+  }
+}
+.wine-box p {
+  font-size: 32px;
+}
+@media (max-width: 410px) {
+  .wine-box p {
+    font-size: 24px;
+  }
+}
+
+.slide-title p {
+  max-width: 256px;
+  font-size: 32px;
+  padding: 0 141px 30px 141px;
+  border-bottom: 1px solid #B5986D;
+  margin: 0 auto 50px auto;
+}
+@media (max-width: 768px) {
+  .slide-title p {
+    padding: 0 70px 30px 70px;
+  }
+}
+@media (max-width: 410px) {
+  .slide-title p {
+    max-width: 100%;
+    padding: 0 0 30px 0;
+  }
+}
+
+.slider {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.slide {
+  width: 100%;
+}
+.slide .slide-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide .slide-photo .photo-border {
+  padding: 20px;
+  border: 1px solid #B5986D;
+}
+.slide .slide-photo .photo-border .slider-img {
+  width: 100%;
+}
+.slide .slide-country {
+  font-size: 32px;
+  color: #B5986D;
+  margin-top: 20px;
+}
+.slide .card-btn {
+  margin-top: 20px;
+}
+
+/* Обмежуюча оболонка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Стрічка слайдів */
+.slick-track {
+  display: flex;
+}
+
+/* Стрілка */
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  width: 24px;
+  height: 42px;
+  font-size: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+/* Стрілка вліво */
+.slick-arrow.slick-prev {
+  left: 25px;
+  background-image: url(../img/Page-5/left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Стрілка вправо */
+.slick-arrow.slick-next {
+  right: 25px;
+  background-image: url(../img/Page-5/right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}/*# sourceMappingURL=wine.css.map */

@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  font-family: "Playfair Display", serif;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+:root {
+  --white: #fff;
+  --dark-blue: #021222;
+}
+
+#gold {
+  color: #B5986D;
+}
+
+.container {
+  max-width: 1090px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.title {
+  font-size: 64px;
+  letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 45px;
+  }
+}
+
+.text-title {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  -webkit-text-decoration: 3px underline;
+          text-decoration: 3px underline;
+}
+
+.text {
+  font-size: 24px;
+}
+@media (max-width: 1280px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+.page-title {
+  font-size: 96px;
+  color: #fff;
+  letter-spacing: 5px;
+  padding: 30px 0 147px 0;
+}
+
+.item-title-menu {
+  position: relative;
+  margin: 100px 0 50px 0;
+}
+
+.title-menu {
+  font-size: 48px;
+  color: #B5986D;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+  letter-spacing: 3px;
+}
+
+.title-menu-bg {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  z-index: -2;
+  font-size: 130px;
+  color: rgba(12, 41, 81, 0.3);
+  letter-spacing: 5px;
+}
+@media (max-width: 768px) {
+  .title-menu-bg {
+    font-size: 55px;
+    bottom: 20px;
+  }
+}
+
+.cost {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+.location .right-img {
+  width: 5px;
+  height: 8px;
+}
+.location .title-menu {
+  font-size: 18px;
+  -webkit-text-decoration: underline 1px;
+          text-decoration: underline 1px;
+  letter-spacing: 0;
+}
+
+.menu {
+  background-image: url(../img/Page-3/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-content {
+  margin: 50px 0 134px 0;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 50px 0;
+}
+.card-btn a {
+  color: var(--white);
+  font-size: 20px;
+  -webkit-text-decoration: 1px underline #B5986D;
+          text-decoration: 1px underline #B5986D;
+  transition: 0.3s;
+}
+.card-btn a:hover {
+  color: #B5986D;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,61 @@
+// card
+
+.item-cards{
+    display: flex;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #B5986D;
+
+    @media (max-width: 768px){
+        display: block;
+    }
+}
+
+.card-content{
+    width: 100%;
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: 1px solid #B5986D;
+
+    @media (max-width: 768px){
+        border-right: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    &:last-child{
+        padding-right: 0;
+        margin-right: 0;
+        border-right: 0;
+    }
+    .card-img{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        padding: 51px 50px;
+        border: 1px solid #B5986D;
+        .card-photo{
+            max-width: 100%;
+        }
+    }
+
+    .card-title{
+        font-size: 24px;
+        color: #B5986D;
+        padding-top: 40px;
+    }
+    
+}
+
+.retreat{
+    padding-top: 50px;
+}
+
+.border-null{
+    border-bottom: 0;
+}
